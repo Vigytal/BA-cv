@@ -1,0 +1,194 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    background-color: #E5E5E5;
+    /*height: 100vh;*/
+}
+
+.container {
+    max-width: 1220px;
+    height: 100%;
+}
+
+.head {
+    height: 50px;
+    background-color: #97A6B9;
+}
+
+.wrapper {
+    padding: 50px 0px;
+    max-width: 1220px;
+    background-color: whitesmoke;
+    height: 100%;
+    display: flex;
+}
+
+.vertical__line {
+    width: 1px;
+    background-color: gray;
+}
+
+.left__column {
+    width: 33%;
+    padding: 0px 50px;
+}
+
+.right__column {
+    width: 66%;
+    padding: 0px 50px;
+}
+
+.profile__photo {
+    display: flex;
+}
+
+.photo {
+    border-radius: 50%;
+
+    width: auto;
+    max-width: 100%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    text-decoration: none;
+    color: #007aff;
+}
+
+.icon {
+    margin: 0;
+}
+
+.text__general {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+
+    margin: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+
+    padding-bottom: 30px;
+}
+
+.courses__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course__wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.point {
+    margin: 0;
+}
+
+.point__big {
+    padding-top: 15px;
+    width: 16px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text__bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    margin: 0;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+/*.skills__wrapper {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.skill__wrapper {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.point__small {
+    width: 10px;
+}
+
+.languages {
+    padding-top: 50px;
+}
+
+.language__wrapper {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.profile__title {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+}
+
+.name {
+    margin: 0;
+    color: #97A6B9;
+
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+.job__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.profile {
+    padding-top: 50px;
+    padding-bottom: 23px;
+}
+
+.job__description {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.education {
+    padding-top: 50px;
+}
+
+.achievements {
+    padding-top: 50px;
+}
